@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0F7FF"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,16 +13,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingHorizontal="30dp"
-        android:paddingVertical="10dp">
+        android:paddingVertical="16dp">
 
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
             android:adjustViewBounds="true"
             android:background="@drawable/bg_15"
-            android:src="@drawable/back" />
-
+            android:padding="16dp"
+            android:src="@drawable/ic_back" />
 
         <TextView
             android:layout_width="match_parent"
@@ -30,7 +31,9 @@
             android:layout_marginStart="20dp"
             android:gravity="start"
             android:text="Back"
-            android:textSize="25sp" />
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
